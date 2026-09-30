@@ -1,0 +1,26 @@
+{
+  "name": "etappal-panchayat-desktop",
+  "version": "3.2.0",
+  "description": "Standalone Desktop App for Andhra Pradesh Gram Panchayat Administration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:linux": "electron-builder --linux",
+    "build:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "in.gov.ap.panchayat.etappal",
+    "productName": "e-Tappal Panchayat Governance",
+    "win": {
+      "target": "nsis"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  }
+}
