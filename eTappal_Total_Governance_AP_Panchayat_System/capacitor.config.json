@@ -1,9 +1,0 @@
-{
-  "appId": "in.gov.ap.madanapuram.etappal",
-  "appName": "e-Tappal Madanapuram GP",
-  "webDir": ".",
-  "bundledWebRuntime": false,
-  "server": {
-    "androidScheme": "https"
-  }
-}
